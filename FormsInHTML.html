@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 
+        frontend ==> with which user interacts
+        backend ==> is the logic written with which user never directly interact. 
+        action => This attribute specifies that where the form data should be stored.(link of the file)
+        method ==> This attribute specifies either we are getting the data or we are sending the data(GET,POST)
+        radio ==> it is a type of  input tag which gives the option to user to select only one option out of many.
+        checkbox ==> it is a type of inptut tag which gives the option to user to select multiple option from many.
+    -->
+
+    <form action="./backend.js" , method="post">
+
+        <input type="text" placeholder="Name" required>
+        <input type="number" placeholder="Contact Number" required>
+        <input type="email" placeholder="Enter your Email">
+        <textarea name="" id="" cols="30" rows="10"></textarea> 
+        Select the Gender : <input type="radio" name="gender">Male <input type="radio" name="gender">Female  <br>
+
+        <b> Select the benefits of eating healthy food? </b>    
+        <input type="checkbox"> Better Muscles
+        <input type="checkbox"> Better Lifestyle
+        <input type="checkbox"> Better Mood
+
+        <input type="range">
+        <input type="password">
+        <input type="date">
+        <input type="submit">
+
+    </form>
+
+
+
+
+
+</body>
+</html>
