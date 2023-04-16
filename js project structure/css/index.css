@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    background: rgb(134, 58, 58);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+body{
+    text-align: center;
+}
+#text{
+    background-color: red;
+    padding: 30px;
+    width: 500px;
+    margin: 30px auto;
+    color: white;
+    font-size: 30px;
+}
