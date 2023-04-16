@@ -12,3 +12,11 @@ function show_the_text(){
         
     }, 2000);
 }
+
+
+var number1 = 15000;
+var number2 = 5890;
+
+var result = number1 / number2;
+
+console.log(result);
