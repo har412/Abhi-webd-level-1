@@ -1,0 +1,1 @@
+document.getElementById('text').innerHTML="I am Changed"
